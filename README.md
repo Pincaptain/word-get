@@ -12,4 +12,4 @@ Princeton University "About WordNet." <a href="https://wordnet.princeton.edu/">W
 
 To start using the program just run the start.py file in the root directory.
 <br>
-Good luck!
+<b>Good luck!</b>
