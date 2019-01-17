@@ -7,3 +7,9 @@ Using a specific query as an input you can search the WordNet database and get t
 ## Citation
 
 Princeton University "About WordNet." <a href="https://wordnet.princeton.edu/">WordNet<a>. Princeton University. 2010. 
+
+## Documentation
+
+To start using the program just run the start.py file in the root directory.
+<br>
+Good luck!
