@@ -83,7 +83,7 @@ def get_word_examples(text):
     stack = []
     # Reverse text for iteration
     reverse = text[::-1].strip()
-    # Represents a single examle
+    # Represents a single example
     example = ''
 
     # Iterates over every character in the text
@@ -104,7 +104,7 @@ def get_word_examples(text):
             stack.pop()
 
             example = example[::-1].strip()
-            example = example[1: len(example) - 1]
+            example = example[1: len(example)]
             example = example.capitalize()
 
             examples.append(example)
@@ -113,7 +113,7 @@ def get_word_examples(text):
 
     # Clear all empty strings
     for example in examples:
-        if example == '':
+        if example == '' or example == ';':
             examples.remove(example)
 
     return examples
